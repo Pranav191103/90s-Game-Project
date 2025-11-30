@@ -65,3 +65,38 @@ This repository fulfills **100% of the requirements** for Assignment 4.
 ## Final Project Code & Enclosure
 These will be added later once the hardware is assembled and tested (not required yet for Assignment 4).
 
+## 🧰 Components Used
+| Component                | Purpose                          |
+|-------------------------|----------------------------------|
+| Xiao ESP32-C3           | Main microcontroller              |
+| ADXL345 Accelerometer   | Detects tilt movements            |
+| SSD1306 OLED Display    | Shows level, moves, game states   |
+| Rotary Encoder          | Difficulty selection & restart    |
+| NeoPixel LEDs           | Visual feedback (game status)     |
+| LiPo Battery + Switch   | Portable power supply             |
+
+---
+
+## 🖼 Diagram Previews
+
+### System Block Diagram  
+![System Diagram](Documentation/system_block_diagram.png)
+
+### Circuit Diagram  
+![Circuit Diagram](Documentation/circuit_diagram.png)
+
+---
+
+## 🚀 Planned Game Features (Final Project)
+- 3 Difficulty Levels (Easy, Medium, Hard)
+- 4 Tilt-Based Movements (Left, Right, Forward, Backward)
+- NeoPixel color indicators for game state
+- OLED display for levels, moves, and game over
+- 10 progressive levels
+- Auto-calibration on startup
+- Restart without power cycling
+
+---
+
+## 🛠 Running the Code (To Be Added)
+The main game logic using CircuitPython will be added to the `src/` folder once hardware assembly and testing begins.  
